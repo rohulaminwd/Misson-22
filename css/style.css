@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    scroll-behavior: smooth;
+    font-family: 'Open Sans', sans-serif;
+}
+/* img{
+    vertical-align: middle;
+} */
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+.flex-item{
+    display: flex;
+    justify-content: space-between;
+}
+h2{
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    line-height: 70px;
+}
+/* COMMON CSS END */
+
+
+/* TOP SECTION START */
+.top-section{
+    margin-top: 70px;
+}
+.orange-color{
+    color: orange;
+}
+.top-section h1{
+    font-size: 50px;
+    font-family: 'Abril Fatface', cursive;
+    line-height: 70px;
+}
+.top-item{
+    width: 50%;
+}
+.img-item{
+    width: 80%;
+    margin-left: 100px;
+    margin-top: -80px;
+}
+
+.top-tittle{
+    margin: 30px 0;
+    padding: 0 16px;
+    position: relative;
+}
+.top-tittle::after{
+    content: '';
+    top: 16px;
+    left: 0;
+    width: 5px;
+    height: 113px;
+    background-color: orange;
+    position: absolute;
+}
+.tomato-btn{
+    padding: 10px 40px;
+    background-color: tomato;
+    border-radius: 10px;
+    font-weight: 700;
+    margin: 20px 0 30px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.tomato-btn a{
+    color: #fff;
+}
+/* TOP SECTION END */
+
+
+/* MY-MISSION SECTION START */
+.mission{
+    margin: 70px 0;
+}
+.mission h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+}
+.mission .mission-item{
+    width: 30%;
+    background-color: powderblue;
+    padding: 20px;
+    margin-top: 40px;
+    border-radius: 20px;
+}
+.mission .mission-item h3{
+    margin: 20px 0;
+
+}
+/* MY-MISSION SECTION END */
+
+
+/* DEVELOP SECTION START */
+.develop{
+    background-image: #ddd;
+    margin: 100px 0;
+}
+.develop-img{
+    width: 40%;
+}
+.develop-content{
+    width: 60%;
+    align-items: center;
+    margin-top: 40px;
+}
+.develop-content p{
+    line-height: 30px;
+}
+/* DEVELOP SECTION END */
+
+
+/* GLOBAL SECTION START */
+.global{
+    background-image: #ddd;
+    margin: 100px 0;
+
+}
+.global-img{
+    width: 40%;
+}
+.global-img img{
+   text-align: right;
+   margin-left: 92px;
+}
+.global-content{
+    width: 60%;
+    align-items: center;
+    margin-top: 40px;
+}
+.global-content p{
+    line-height: 30px;
+}
+/* GLOBAL SECTION END */
+
+
+/* FOOTER SECTION START */
+footer{
+    background-color: #000;
+    text-align: center;
+    color: #fff;
+}
+footer h3{
+    font-size: 30px;
+    line-height: 70px;
+    margin-top: 20px;
+    font-family: 'Abril Fatface', cursive;
+}
+footer p{
+    padding-bottom: 30px;
+    font-size: 14px;
+    font-family: 'Lobster', cursive;
+}
+/* FOOTER SECTION END */
