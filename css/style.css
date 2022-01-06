@@ -5,11 +5,11 @@
 }
 body{
     scroll-behavior: smooth;
-    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Luxurious Roman', cursive; */
 }
-/* img{
+img{
     vertical-align: middle;
-} */
+}
 a{
     text-decoration: none;
 }
@@ -34,57 +34,66 @@ h2{
 
 /* TOP SECTION START */
 .top-section{
-    background-color: rgb(227, 228, 230);
-    padding: 50px 0;
+    background-color: #d9e2ee;
+    padding: 100px 0 50px 0;
 }
-.orange-color{
-    color: orange;
+.green-color{
+    color: green;
 }
 .top-section h1{
     font-size: 50px;
     font-family: 'Abril Fatface', cursive;
-    line-height: 70px;
+    line-height: 40px;
+    padding: 0px 10px;
+    border-left: 5px solid green;
 }
 .top-item{
     width: 50%;
 }
+.top-item p{
+    margin-top: 30px;
+}
 .img-item{
-    width: 80%;
-    margin-left: 100px;
-    margin-top: -80px;
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px;
 }
-
-.top-tittle{
-    margin: 30px 0;
-    padding: 0 16px;
-    position: relative;
+.img-item img{
+    margin-top: -130px;
+    width: 380px;
 }
-.top-tittle::after{
-    content: '';
-    top: 16px;
-    left: 0;
-    width: 5px;
-    height: 113px;
-    background-color: orange;
-    position: absolute;
-}
-.tomato-btn{
+.green-btn{
     padding: 10px 40px;
-    background-color: tomato;
+    background-color: green;
     border-radius: 10px;
     font-weight: 700;
     margin: 20px 0 30px 0;
     border: none;
     outline: none;
     cursor: pointer;
+    transition: 0.4s;
 }
-.tomato-btn a{
+.green-btn:hover{
+    box-shadow: 0px 2px 10px #000;
+    transform: translateY(-5px);
+}
+.green-btn a{
     color: #fff;
 }
 /* TOP SECTION END */
 
 
 /* MY-MISSION SECTION START */
+#color01{
+    background-color: paleturquoise;
+}
+#color02{
+    background-color: thistle;
+}
+#color03{
+    background-color: rgb(166, 167, 250);
+}
 .mission{
     margin: 70px 0;
 }
@@ -92,13 +101,19 @@ h2{
     text-align: center;
     font-size: 50px;
     font-family: 'Oswald', sans-serif;
+    text-decoration: underline;
+    text-underline-offset: 15px;
 }
 .mission .mission-item{
     width: 30%;
-    background-color: powderblue;
     padding: 20px;
     margin-top: 40px;
     border-radius: 20px;
+    transition: .4s;
+}
+.mission .mission-item:hover{
+    box-shadow: 0px 5px 20px #000;
+    transform: translateY(-5px);
 }
 .mission .mission-item h3{
     margin: 20px 0;
@@ -110,7 +125,11 @@ h2{
 /* DEVELOP SECTION START */
 .develop{
     background-image: #ddd;
-    margin: 100px 0;
+    margin-top: 100px;
+    background-image: url(../images/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 200px;
 }
 .develop-img{
     width: 40%;
@@ -120,7 +139,7 @@ h2{
     align-items: center;
     height: 380px;
     overflow: auto;
-    background-color: rgb(217, 226, 238);
+    background-color: #d9e2ee;
     padding: 10px 20px 0px 30px;
     border-radius: 20px;
 }
@@ -133,14 +152,17 @@ h2{
 /* GLOBAL SECTION START */
 .global{
     background-image: #ddd;
-    margin: 100px 0;
+    padding: 100px 0;
+    background-image: url(../images/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 200px;
 
 }
 .global-img{
     width: 40%;
     display: flex;
     justify-content: right;
-
 }
 .global-img img{
    width: 360px;
@@ -167,6 +189,8 @@ h2{
     font-family: 'Abril Fatface', cursive;
     line-height: 70px;
     text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 15px;
 }
 .protfolio-item{
     width: 30%;
@@ -206,3 +230,5 @@ footer p{
     font-family: 'Lobster', cursive;
 }
 /* FOOTER SECTION END */
+
+/* font-family: 'Permanent Marker', cursive */
