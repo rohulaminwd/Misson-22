@@ -17,7 +17,7 @@ ul{
     list-style: none;
 }
 .container{
-    width: 1170px;
+    width: 85%;
     margin: 0 auto;
 }
 .flex-item{
@@ -34,7 +34,8 @@ h2{
 
 /* TOP SECTION START */
 .top-section{
-    margin-top: 70px;
+    background-color: rgb(227, 228, 230);
+    padding: 50px 0;
 }
 .orange-color{
     color: orange;
@@ -117,7 +118,11 @@ h2{
 .develop-content{
     width: 60%;
     align-items: center;
-    margin-top: 40px;
+    height: 380px;
+    overflow: auto;
+    background-color: rgb(217, 226, 238);
+    padding: 10px 20px 0px 30px;
+    border-radius: 20px;
 }
 .develop-content p{
     line-height: 30px;
@@ -133,20 +138,54 @@ h2{
 }
 .global-img{
     width: 40%;
+    display: flex;
+    justify-content: right;
+
 }
 .global-img img{
-   text-align: right;
-   margin-left: 92px;
+   width: 360px;
+   height: 380px;
 }
 .global-content{
     width: 60%;
     align-items: center;
-    margin-top: 40px;
+    height: 380px;
+    overflow: auto;
+    background-color: rgb(217, 226, 238);
+    padding: 10px 30px 0px 20px;
+    border-radius: 20px;
 }
 .global-content p{
     line-height: 30px;
 }
+
 /* GLOBAL SECTION END */
+
+/* PROTFOLIO SECTION START */
+.protfolio h1{
+    font-size: 50px;
+    font-family: 'Abril Fatface', cursive;
+    line-height: 70px;
+    text-align: center;
+}
+.protfolio-item{
+    width: 30%;
+    border: 10px solid green;
+    border-radius: 5px;
+    margin: 30px 0;
+    position: relative;
+    transition: .3s;
+}
+.protfolio-item:hover{
+    box-shadow: 0px 5px 20px #000;
+    transform: translateY(-5px);
+}
+.protfolio-item img{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+/* PROTFOLIO SECTION END */
 
 
 /* FOOTER SECTION START */
@@ -159,7 +198,7 @@ footer h3{
     font-size: 30px;
     line-height: 70px;
     margin-top: 20px;
-    font-family: 'Abril Fatface', cursive;
+    font-family: 'Oswald', sans-serif;
 }
 footer p{
     padding-bottom: 30px;
