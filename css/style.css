@@ -5,7 +5,6 @@
 }
 body{
     scroll-behavior: smooth;
-    /* font-family: 'Luxurious Roman', cursive; */
 }
 img{
     vertical-align: middle;
@@ -210,6 +209,94 @@ h2{
     padding: 0px;
 }
 /* PROTFOLIO SECTION END */
+
+/* CONTACT SECTION START */
+.contac{
+margin: 50px 0;
+}
+.contac .our-skill{
+    width: 48%;
+    background-color: #f1e4ed;
+    padding: 10px 30px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+.contac h2{
+    text-align: center;
+}
+.our-skill .progress .bar{
+  width: 100%;
+  height: 30px;
+  background-color: green;
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+}
+.our-skill .progress .bar .bar1{
+  width: 90%;
+  height: 15px;
+  background-color: tomato;
+  border-radius: 10px;
+}
+.our-skill .progress .bar .bar2{
+  width: 70%;
+  height: 15px;
+  background-color: tomato;
+  border-radius: 10px;
+}
+.our-skill .progress .bar .bar3{
+  width: 95%;
+  height: 15px;
+  background-color: tomato;
+  border-radius: 10px;
+}
+.our-skill .progress .bar .bar4{
+  width: 60%;
+  height: 15px;
+  background-color: tomato;
+  border-radius: 10px;
+}
+.our-skill .progress .bar .bar5{
+  width: 50%;
+  height: 15px;
+  background-color: tomato;
+  border-radius: 10px;
+}
+
+.contact-me{
+    width: 48%;
+    background-color: #f1e4ed;
+    padding: 10px 30px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  textarea{
+    width: 100%;
+    height: 100px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+#submit{
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+/* CONTACT SECTION END */
 
 
 /* FOOTER SECTION START */
